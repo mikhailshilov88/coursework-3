@@ -28,7 +28,7 @@ def formatted_data(item):
            f'{item["operationAmount"]["amount"]} {item["operationAmount"]["currency"]["name"]}\n'
 
 
-def rormat_date(srt_date):
+def format_date(srt_date):
     list_date = srt_date[:10].split('-')
     return '.'.join(reversed(list_date))
 
